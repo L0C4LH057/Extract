@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Extract</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 300px;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    #logo {
+      display: block;
+      margin: 10px auto;
+      max-width: 100%;
+    }
+    button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 5px;
+      background-color: #4285f4;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    button:hover {
+      background-color: #357ae8;
+    }
+    #results {
+      height: 200px;
+      overflow-y: auto;
+      border: 1px solid #ccc;
+      padding: 10px;
+      background-color: #f9f9f9;
+      margin-bottom: 10px;
+    }
+    #attribution {
+      text-align: center;
+      font-size: 12px;
+      color: #666;
+    }
+    #filterInput {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+    #exportOptions {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+  <img src="logo.png" alt="Extract Logo" id="logo">
+  <input type="text" id="filterInput" placeholder="Filter URLs (e.g., /api)">
+  <button id="extractButton">Extract Endpoints</button>
+  <select id="exportOptions">
+    <option value="urls-only">Export URLs Only</option>
+    <option value="with-source">Export with Source Information</option>
+  </select>
+  <button id="exportTXT">Export as TXT</button>
+  <button id="exportCSV">Export as CSV</button>
+  <button id="exportJSON">Export as JSON</button>
+  <div id="results"></div>
+  <div id="attribution">by: L0C4LHO5T</div>
+</body>
+</html>
