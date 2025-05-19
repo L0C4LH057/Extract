@@ -56,8 +56,8 @@ Whether you're doing recon, testing APIs, or auditing front-end code, **Extract*
 ## 🤝 Contributing 
 
 Contributions are welcome! If you'd like to help improve Extract , feel free to open an issue or submit a pull request. 
-📄 License 
 
+## 📄 License 
 This project is licensed under the MIT License – see the LICENSE  file for details.
 
 👤 Author 
