@@ -42,7 +42,7 @@ Whether you're doing recon, testing APIs, or auditing front-end code, **Extract*
 5. You're done! The extension will now appear in your Chrome toolbar. 
      
 
-🧪 **How to Use** 
+## 🧪 How to Use
 
   -  Navigate to any webpage.
   -  Click the extension icon  in the Chrome toolbar.
@@ -53,7 +53,7 @@ Whether you're doing recon, testing APIs, or auditing front-end code, **Extract*
   -  Click any of the export buttons to save the results in your preferred format.
      
 
-🤝 Contributing 
+## 🤝 Contributing 
 
 Contributions are welcome! If you'd like to help improve Extract , feel free to open an issue or submit a pull request. 
 📄 License 
@@ -61,4 +61,4 @@ Contributions are welcome! If you'd like to help improve Extract , feel free to 
 This project is licensed under the MIT License – see the LICENSE  file for details. 
 👤 Author 
 
-L0c4LHO5T  
+**L0C4LHO57**  
