@@ -1,0 +1,18 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows thumbnails
+Thumbs.db
+
+# Ignore IDE files (optional)
+.idea/
+.vscode/
+*.swp
+*~
+\#*\#
+
+# Ignore log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
